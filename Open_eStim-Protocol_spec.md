@@ -66,13 +66,6 @@ Ping
     Length: 1
     Payload: Sequence Number
 
-#### 0x03: PING
-Ping Request
-
-    Type: 03
-    Length: 1
-    Payload: Sequence Number
-
 #### 0x04: PONG
 Ping Reply
 
@@ -161,3 +154,6 @@ The Temporary Key has an timeout assoiated to it, after the set timeout expires 
 If the outputs are still active when this happens, they a shut off in an controlled manner (ie. ramp down over 10sec)
 
 *TODO*
+
+## Attribution
+Parts inspired by the protocol of nSST (https://github.com/nonchip/nSST)
